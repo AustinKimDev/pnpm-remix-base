@@ -5,6 +5,6 @@ pnpm을 이용한 remix framework boilder plate 입니다.
 - pnpm
 # Dependencies
 - react
-- react-dom
-- isbot
-- 
+- remix
+- vanilla-extract
+- typescript
