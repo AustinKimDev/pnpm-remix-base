@@ -5,9 +5,12 @@
     "build": "remix build",
     "dev": "remix dev",
     "start": "remix-serve build",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "parcel-dev": "parcel",
+    "parcel-build": "parcel build"
   },
   "dependencies": {
+    "@remix-run/css-bundle": "^1.13.0",
     "@remix-run/node": "^1.13.0",
     "@remix-run/react": "^1.13.0",
     "@remix-run/serve": "^1.13.0",
@@ -20,12 +23,15 @@
     "@remix-run/eslint-config": "^1.13.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "@vanilla-extract/css": "^1.9.5",
+    "css": "link:@types/@vanilla-extract/css",
     "eslint": "^8.34.0",
     "typescript": "^4.9.5"
   },
   "engines": {
     "node": ">=14.0.0"
   },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "version": "0.0.1",
   "name": "pnpm-remix-base"
 }
