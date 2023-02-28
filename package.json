@@ -5,9 +5,7 @@
     "build": "remix build",
     "dev": "remix dev",
     "start": "remix-serve build",
-    "typecheck": "tsc",
-    "parcel-dev": "parcel",
-    "parcel-build": "parcel build"
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@remix-run/css-bundle": "^1.13.0",
